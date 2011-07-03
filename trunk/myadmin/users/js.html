@@ -1,0 +1,179 @@
+<script language="javascript">
+var count = 0;
+var checkCount = 0;
+var perChked = new Array();
+var doPur = null;
+
+function checkPerm()
+{
+	var curUser = '<?=$usrid?>';
+	var canUser = '<?=$usrper["canUser"]?>';
+	if(canUser=='<?=NO?>')
+	{
+		if(curUser!='<?=$CURID?>')
+		{
+			document.all["btnEdit"].style.display = 'none';
+		}
+		document.all["btnAdd"].style.display = 'none';
+		document.all["btnDelete"].style.display = 'none';
+		document.all["btnDeletes"].style.display = 'none';
+	}
+}
+
+function checkClick()
+{
+	numCan = objFrm.canDo.length;
+	var countCan = 0;
+	for(i=0;i<numCan-1;i++)
+	{
+		if(!objFrm.canDo[i].checked) countCan++;
+	}
+	if(countCan>0)
+	{
+		objFrm.canDo[i].checked = false;
+		objFrm.canDo[i].disabled = true;
+	}
+	else objFrm.canDo[i].disabled = false;
+}
+
+function disablePerm(objFrm,disable)
+{
+	numCan = objFrm.canDo.length;
+	for(i=0;i<numCan;i++)
+	{
+		if(count==0) perChked[i] = objFrm.canDo[i].checked;
+		objFrm.canDo[i].disabled = disable;
+	}
+}
+
+function setPermChecked(objFrm,pur)
+{
+	numCan = objFrm.canDo.length;
+	for(i=0;i<numCan;i++)
+	{
+		if(pur=='insert') objFrm.canDo[i].checked = true;
+		else objFrm.canDo[i].checked = perChked[i];
+	}
+}
+
+function setPermValue(objFrm)
+{
+	var strPer = '';
+	var numCan = objFrm.canDo.length;
+	for(i=0;i<numCan;i++)
+	{
+		if(objFrm.canDo[i].checked==true) strPer += '<?=YES?>_';
+		else strPer += '<?=NO?>_';
+	}
+	objFrm.PERM.value = strPer.substr(0,strPer.length-1);
+}
+
+function activForm(pur)
+{
+	var canUser = '<?=$usrper["canUser"]?>';
+	objFrm = document.frmEdit;
+	if(count==0)
+	{
+		curUser = objFrm.USER.value;
+		curName = objFrm.FNAME.value;
+		curCURID = objFrm.CURID.value;
+		curPage = objFrm.curPg.value;
+	}
+	
+	objFrm.FNAME.readOnly = 0;
+	if(canUser=='<?=YES?>') disablePerm(objFrm,false);
+	if(document.all["NPWD"]) document.all["NPWD"].style.display = "";
+	if(document.all["RPWD"]) document.all["RPWD"].style.display = "";
+	if(document.all["btnUpdate"]) document.all["btnUpdate"].style.display = "";
+	if(document.all["btnCancel"]) document.all["btnCancel"].style.display = "";
+	if(document.all["btnEdit"]) document.all["btnEdit"].style.display = "none";
+			
+	if(pur=='insert')
+	{			
+		objFrm.USER.readOnly = 0;
+		objFrm.USER.value = '';
+		objFrm.FNAME.value = '';
+		//setPermChecked(objFrm,'insert');
+		objFrm.CURID.value = '';
+		objFrm.curPg.value = '1';
+		if(document.all["btnDelete"]) document.all["btnDelete"].style.display = "none";
+	}
+	if(pur=='edit'&&count>0)
+	{
+		objFrm.USER.readOnly = 1;
+		objFrm.USER.value = curUser;
+		objFrm.FNAME.value = curName;
+		objFrm.CURID.value = curCURID;
+		objFrm.curPg.value = curPage;
+	}
+	if(canUser=='<?=YES?>') 
+	{
+		setPermChecked(objFrm,pur);
+		checkClick();
+	}
+	doPur = pur;
+	count++;
+}
+
+function notExe()
+{
+	if(document.all["NPWD"]) document.all["NPWD"].style.display = "none";
+	if(document.all["RPWD"]) document.all["RPWD"].style.display = "none";
+	if(document.all["btnUpdate"]) document.all["btnUpdate"].style.display = "none";
+	if(document.all["btnCancel"]) document.all["btnCancel"].style.display = "none";
+	if(document.all["btnEdit"]) document.all["btnEdit"].style.display = "";
+	if(document.all["btnDelete"]) document.all["btnDelete"].style.display = "";
+	
+	objFrm.USER.readOnly = 1;
+	objFrm.FNAME.readOnly = 1;
+	disablePerm(objFrm,true);
+	
+	objFrm.USER.value = curUser;
+	objFrm.FNAME.value = curName;
+	setPermChecked(objFrm,'edit');
+	objFrm.CURID.value = curCURID;
+	objFrm.curPg.value = curPage;
+}
+
+function checkSubmit()
+{
+	var pwd = objFrm.PWD.value;
+	var repwd = objFrm.REPWD.value;
+	if(objFrm.USER.value=="")
+	{
+		alert("Ban vui long nhap username!");
+		objFrm.USER.focus();
+		return false;
+	}		
+	if(doPur=='insert' && pwd=="")
+	{
+		alert("Vui long kiem tra lai mat khau!");
+		objFrm.PWD.focus();
+		return false;
+	}
+	if(pwd!=repwd)
+	{
+		alert("Vui long kiem tra lai mat khau!");
+		objFrm.PWD.focus();
+		return false;
+	}
+	if(objFrm.FNAME.value=="")
+	{
+		alert("Vui long nhap ho & ten cua ban!");
+		objFrm.FNAME.focus();
+		return false;
+	}
+	setPermValue(objFrm);
+		
+	return true;
+}
+
+function doSubmit()
+{
+	objFrm = document.frmEdit;
+	if(checkSubmit()) objFrm.submit();
+}
+
+checkPerm();
+setTypingMode(1);
+</script>

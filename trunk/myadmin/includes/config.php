@@ -1,0 +1,37 @@
+<?
+$config = array();
+$config["db_host"] = "localhost";
+$config["db_user"] = "sim";
+$config["db_pwd"] = "sim";
+$config["db_name"] = "simsodep";
+$config["db_error"] = "Could not connect to MySQL Database";
+$config["domain"] = "http://sim.local";
+$config["root_path"] = "D:/xampp/htdocs/simdep/";
+$config["script_path"] = "";
+$config["FCKeditor_path"] = "FCKeditor/";
+$config["FCKeditor_upload_path"] = "";
+$config["special_admin"] = "b383ac76bb41bb2eb7e26660522ec6d1";
+$config["site_title"] = "Sim Số Đẹp - Sim Đẹp, Sim Vip 10 số các mạng giá tốt - SimSoDep.Me";
+$config["site_keywords"] = "sim so dep, sim số đẹp, sim vip, sim dep";
+$config["site_description"] = "Đại lý cung cấp sim số đẹp giá tốt nhất. Hàng vạn simcard Mobi, vina và viettel. Uy tín - Nhanh chóng - Tận tình - Chu đáo. Giao sim tận nơi miễn phí";
+$config["site_charset"] = "UTF-8";
+$config["site_verticalmenu"] = "1";
+$config["site_slide"] = "0";
+$config["site_widthslide"] = "541";
+$config["site_heightslide"] = "174";
+$config["site_Productnum"] = "1";
+$config["site_Productmaxnum"] = "15";
+$config["site_ProductmaxnumList"] = "60";
+$config["site_Newsmaxnum"] = "10";
+$config["site_NewsmaxnumList"] = "50";
+$config["site_logonumleft"] = "10";
+$config["site_logonumright"] = "10";
+$config["site_currency"] = "17.80";
+$config["site_showproduct"] = "1";
+$config["site_email"] = "vnmn@vnmn.ac.vn";
+$config["smtp_host"] = "mail.vnmn.ac.vn";
+$config["smtp_mail"] = "vnmn@vnmn.ac.vn";
+$config["smtp_pwd"] = "12345";
+$config["config_name"] = "site_title";
+$config["config_value"] = "site_keywords";
+?>

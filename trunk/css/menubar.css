@@ -1,0 +1,183 @@
+/* common styling */
+#MooMenuBar, #MooMenuBar ul, #MooMenuBar li 
+{
+	margin: 0; 
+	padding: 0; 
+	border: 0 none;
+}
+#MooMenuBar       
+{ 
+	position:relative; 
+	z-index: 100;
+}
+#MooMenuBar li    
+{ 
+	float:left;  
+	position:relative; 
+	display: inline; 
+}
+#MooMenuBar li a  
+{ 
+	display:block; 
+	white-space: nowrap; 
+	color: #FFFF00
+}
+#MooMenuBar li li 
+{ 
+	/*width: 100%;*/ 
+	clear: both;  
+	/*FF 1.0.7 needs this */  
+}
+#MooMenuBar li ul 
+{ 
+	visibility: hidden; 
+	position:absolute;  
+}
+
+#MooMenuBar li li ul 
+{
+	top: 0; 
+	left: 0;  
+}
+
+#MooMenuBar li.hover ul
+{
+	visibility: visible; 
+}
+#MooMenuBar li.hover ul li ul
+{
+	visibility: hidden;
+}
+#MooMenuBar li.hover li.hover ul
+{
+	visibility: visible;
+	left: 100%;
+}
+
+/* ---- Menu layout -------------------------- */
+
+#MooMenuBar li li a
+{ 
+	border: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#MooMenuBar li li li a
+{
+	background-color: #B45922;
+}
+
+#MooMenuBar ul    { border: 0;}
+#MooMenuBar ul li.node {}
+#MooMenuBar ul li.separator 
+{ 
+	background: #DDE1E6 url(../images/bg-MooMenuBar.gif);  
+	height: 1px;  
+}
+
+#MooMenuBar a, #MooMenuBar div {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #333333;
+	font-family: "Monotype Corsiva", "Comic Sans MS", "Trebuchet MS",Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	cursor: default;
+}
+
+.mnConSub
+{
+	background-image: url(../images/j_arrow.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+/*
+.mnLevel_2
+{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+*/
+#MooMenuBar li.disabled a { color: gray; }
+
+#MooMenuBar ul a {
+	font-weight: normal;
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+/* 1 level - hover */
+#MooMenuBar li.hover a 
+{
+	text-decoration: none; 
+	color: #FFFFFF
+}
+/* 2 level - normal */
+#MooMenuBar li.hover ul
+{
+	background-color: #983C25;
+}
+#MooMenuBar li.hover li a 
+{
+	color: #FFFF99; 
+	border-top: 1px solid #B25425; 
+	padding-top:1px; 
+	padding-bottom:1px;
+}
+#MooMenuBar li.hover li.hover a 
+{ 
+	background-color: #C85D0B; 
+	border-top: 1px solid #B25425;
+}
+/* 3 level - normal */
+#MooMenuBar li.hover li.hover ul 
+{ 
+	background-color: #C85D0B;  
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+#MooMenuBar li.hover li.hover li a 
+{ 
+	color: #FFFF99; 
+	padding-top:1px; 
+	padding-bottom:1px;
+	border-top: 1px solid #DF763C;
+}
+#MooMenuBar li.hover li.hover li.hover a 
+{ 
+	background-color: #B84D2E;  
+	border-top: 1px solid #DF763C;
+}
+
+/* submenu styling */
+#submenu 
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#submenu li {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#submenu li a,
+#submenu span.nolink {
+	cursor: pointer;
+	padding: 0px 15px;
+	border-right: 1px solid #ccc;
+	font-weight: bold;
+	color: #0B55C4;
+	line-height: 12px;
+	height: 12px;
+}
+
+#submenu span.nolink {
+	color: #999;
+}
+
+#submenu a.active,
+#submenu span.nolink.active {
+	color: #000;
+	text-decoration: underline;
+}

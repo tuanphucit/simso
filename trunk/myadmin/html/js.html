@@ -1,0 +1,15 @@
+<script language="javascript">
+function update()
+{
+	var myForm = document.frmEdit;
+	if(myForm.pageName.value=="")
+	{
+		alert("Please enter title of page!");
+		myForm.pageName.focus();
+		return false;
+	}
+	myForm.submit();
+}
+
+setTypingMode(1);
+</script>

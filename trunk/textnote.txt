@@ -1,0 +1,16 @@
+﻿[25-03]
+	body_page.php chứa hầu hết bố cục của trang
+	Chỉnh menufooter_1.htm để cho 4 cái nhỏ nhỏ : game sms,...
+	phan chinh sua kho : myadmin/moduleskho/listmodulefield.php
+	Khi an nut delete no submit form len trang main.php.
+	Ham xoa kho trong file myadmin/includes/functions.php
+	
+	2 file cho viec xoa kho : 
+		myadmin/includes/functions.php
+		myadmin/includes/mysql.php
+[19-03]
+	$_HTML_DIR = "html_include"
+	Cái xóa chọn mạng, chuỗi đầu cuối, ... ở trong file html_include/timkiem.php
+	Mục sim mới cập nhật, sim vip trong file html_includes/simvip.php và html_includes/sanphammoi.php
+[18-03]
+	Bố cục trang web lưu ở trang : html_includes\body_page.php

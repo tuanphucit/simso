@@ -1,0 +1,16 @@
+<script language="javascript">
+function update()
+{
+	var myform = document.frmConfig;
+	var numElem = myform.length;
+	for(i=0;i<numElem;i++)
+	{
+		if(myform.elements[i].name!='config_name' || myform.elements[i].name!='config_value')
+		{
+			myform.config_name.value += myform.elements[i].name+"~";
+			myform.config_value.value += myform.elements[i].value+"~";
+		}
+	}
+	myform.submit();
+}
+</script>

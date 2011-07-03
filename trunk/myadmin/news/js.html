@@ -1,0 +1,78 @@
+<script language="javascript">
+function getObjChange(index,obj,listStr,listId)
+{
+	//var myFrm = document.frmList;
+	var listStr = eval('document.frmList.'+listStr);
+	var listId = eval('document.frmList.'+listId);
+	var lid = listId.value;
+	var lst = listStr.value;
+	var arrid = lid.split(",");
+	var arrst = lst.split(",");
+	var count = 0, i = 0;
+	var mark;
+	while(i<arrid.length && count==0)
+	{
+		if(index==arrid[i])
+		{
+			count++;
+			mark = i;
+		}
+		i++;
+	}
+	if(count>0)
+	{
+		var strSt = "";
+		if(obj.type=='checkbox')
+		{
+			if(obj.checked) arrst[mark] = '1';
+			else arrst[mark] = '0';
+			for(i=0;i<arrst.length-1;i++) strSt += arrst[i]+',';
+			listStr.value = strSt;
+		}
+		else if(arrst[mark]!=obj.value)
+		{
+			arrst[mark] = obj.value;
+			for(i=0;i<arrst.length-1;i++) strSt += arrst[i]+',';
+			listStr.value = strSt;
+		}
+	}
+	else
+	{
+		listId.value += index+',';
+		if(obj.type=='checkbox')
+		{
+			if(obj.checked) listStr.value += '1,';
+			else listStr.value += '0,';
+		}
+		else listStr.value += obj.value+',';
+	}
+}
+
+function updates()
+{
+	var objFrm = document.frmList;
+	objFrm.action = '<?=$url?>&action=updates';
+	objFrm.submit();
+}
+
+function checkSubmit()
+{
+	var objFrm = document.frmEdit;
+	if(objFrm.nname.value=="")
+	{
+		alert("Ban vui long nhap tieu de cho danh muc!");
+		objFrm.nname.focus();
+		return false;
+	}				
+	return true;
+}
+
+function update()
+{
+	var objFrm = document.frmEdit;
+	if(checkSubmit()) 
+	{
+		objFrm.submit();
+	}
+}
+</script>

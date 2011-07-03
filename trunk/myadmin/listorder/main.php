@@ -1,0 +1,230 @@
+<?
+$url = "index.php?module=$module&curPg=$curPg&orderBy=$orderBy&vArrow=$vArrow&KWD=$KWD&POS=$POS";
+
+$sql = new mysql();
+$opt = new option();
+
+$newOrder = $opt->optionvalue("vot_listorder", "MAX(listorder_order)", "language_id='".$LANG."'") + 1;
+
+include_once("js.html");
+
+switch($action)
+{
+	case 'delete':			
+		$chon = str_replace (",","','",$chon);
+		$sql->set_list_tables();
+		$sql->delete("vot_listorder", "listorder_id", $chon);
+		redirect($url);			
+		break;			
+		
+	/*	
+	case 'updates':
+		$listId_O = split(",",$listId_O);
+		$listId_V = split(",",$listId_V);
+		$listOrder = split(",",$listOrder);
+		$listView = split(",",$listView);
+		for($i=0;$i<sizeof($listId_O)-1;$i++)
+		{
+			$values = "listorder_order='".$listOrder[$i]."'";
+			$sql = new mysql();
+			$sql->update("vot_listorder",$values,"listorder_id='".$listId_O[$i]."'");
+		}
+
+		for($i=0;$i<sizeof($listId_V)-1;$i++)
+		{
+			$values = "listorder_view='".$listView[$i]."'";
+			$sql = new mysql();
+			$sql->update("vot_listorder",$values,"listorder_id='".$listId_V[$i]."'");
+		}		
+		redirect($url);
+		break;
+
+	case 'update':
+	
+		if($isSave!=NULL)
+		{
+			redirect($url);
+		}				
+		
+		if(!$view) $view = 0;
+		
+		if($CURID != NULL && $isSave == NULL)
+		{	
+			$values  = "listorder_name='".insertData($nname)."',listorder_add='".insertData($add)."',listorder_tel='".$tel."',listorder_fax='".$fax."',listorder_email='".$email."',listorder_detail='".insertData($detail)."',listorder_order='".$order."',listorder_view='".$view."'";
+			$sql->update("vot_listorder", $values, "listorder_id=$CURID");					
+		}
+		elseif($isSave==NULL)
+		{
+			$fields = "listorder_name,listorder_add,listorder_tel,listorder_fax,listorder_email,listorder_detail,listorder_order,listorder_view,product_id,language_id";
+			$values  = "'".insertData($nname)."','".insertData($add)."','".$tel."','".$fac."','".$email."','".insertData($detail)."','".$order."','".$view."','".$producId."','".$LANG."'";
+			$sql->insert("vot_listorder", $fields, $values);
+		}
+		
+		$isSave = "Y";
+		_SESSION_REGISTER("isSave");
+		redirect("$url&CURID=$CURID");
+		
+		break;
+	*/
+	default:
+	
+		$pageTitle = "Danh s&#225;ch &#273;&#7863;t h&#224;ng";
+		$pageContent = NULL;
+		$linkPath  = '<a href="index.php?module=home">'.def_trangchu.'</a> ';
+		$linkPath .= '/ Danh s&#225;ch &#273;&#7863;t h&#224;ng';
+
+		$isSave = NULL;
+		_SESSION_REGISTER("isSave");
+		include_once("includes/paging.php");
+		
+		$cond = "language_id = '".$LANG."'";
+		if($KWD != NULL) 
+		{
+			$cond .= " AND listorder_name LIKE '%".$KWD."%'";
+		}
+		if($listorderTYPE != NULL)
+		{
+			$cond .= " AND listorder_type = '".$listorderTYPE."'";
+		}
+		
+		if(($orderBy == NULL) || ($orderBy != 'name' && $orderBy != 'order')) 
+		{
+			$orderBy = "order";
+		}
+		
+		if(!$vArrow) $vArrow = 'DESC';
+		
+		$other = " ORDER BY listorder_$orderBy $vArrow";
+		if($vArrow == 'DESC') 
+		{
+			$toArrow = 'ASC';
+			if($orderBy == 'order')
+			{
+				$senderArrow = NULL;
+				$orderArrow = '<img src="images/arrow_down.gif" border="0">';
+			}
+			if($orderBy=='name')
+			{
+				$orderArrow = NULL;
+				$senderArrow = '<img src="images/arrow_down.gif" border="0">';
+			}
+		}
+		else 
+		{
+			$toArrow = 'DESC';
+			if($orderBy == 'order')
+			{
+				$senderArrow = NULL;
+				$orderArrow = '<img src="images/arrow_up.gif" border="0">';
+			}
+			if($orderBy == 'name')
+			{
+				$orderArrow = NULL;
+				$senderArrow = '<img src="images/arrow_up.gif" border="0">';
+			}
+		}
+		
+		$sql->set_query("vot_listorder","*",$cond,$other);
+		$tRows = $sql->nRows;
+		
+		if(!$curPg)
+		{
+			$curPg = 1;
+		}
+		else
+		{
+			$numPgs = ceil($tRows / $maxRows);
+			if($curPg > $numPgs) $curPg = $numPgs;
+		}
+		$curRow = ($curPg - 1) * $maxRows + 1;
+		
+		$action = 'edit';
+		$and = "orderBy=$orderBy&vArrow=$vArrow&KWD=$KWD&POS=$POS";
+		$url = "index.php?module=$module&curPg=$curPg&$and";
+		
+		$CL_SELECTED = "#F5F0F0";
+		$MAXSTRLEN = 25;
+		
+		if($tRows > 0)
+		{
+			$low = $curRow; 
+			$curRow = 1;
+			$cur_p = array();
+			while (($sql->set_farray()) && ($curRow<=$tRows) && ($curRow<=$curPg*$maxRows))
+			{
+				$curRow++;			                           
+				if($curRow > $low)
+				{
+					$nid = $sql->farray["listorder_id"];
+					$name = $itemTitle = displayData_DB($sql->farray["listorder_name"]);
+					if(strlen($name) > $MAXSTRLEN)
+					{
+						$name = cutString($name, 0, $MAXSTRLEN) . "..";
+					}
+					$order = $sql->farray["listorder_order"];
+					$view = $checked[$sql->farray["listorder_view"]];
+									
+					if(($CURID == NULL) && ($curRow == $low + 1)) {$CURID = $nid;}
+					if($nid == $CURID) 
+					{
+						$cur_id = $nid;
+						$cur_name = displayData_DB($sql->farray["listorder_name"]);
+						$ndate = outDateStr($sql->farray["listorder_date"]);
+						$add = displayData_DB($sql->farray["listorder_add"]);
+						$tel = $sql->farray["listorder_tel"];
+						$teltable = $sql->farray["listorder_teltable"];
+						$fax = $sql->farray["listorder_fax"];
+						$email = $sql->farray["listorder_email"];
+						echo $productId = $sql->farray["product_id"];
+						$ssql = new mysql;
+						$ssql->set_query("product", "sosim","id='".$productId."'");
+					$sosim =$opt->optionvalue("product", "sosim", "id='".$productId."'");
+					$sosim = str_replace("`","",$sosim);
+						if($ssql->set_farray())
+						{
+							$productName = $ssql->farray["product_name"];
+							$productType = $ssql->farray["producttype_id"];
+						}
+						$linkToItem = "../home.php/san_pham/$productType/$productId";
+						$detail = displayData_DB($sql->farray["listorder_detail"]);
+						$cur_order = $order;
+						$cur_view = $view;
+	
+						$BG_COLOR = $CL_SELECTED;
+						$arrow = '<img src="images/arrowb.gif">';
+						$style = 'style="border-right:1px solid #EEEEEE"';
+						//$check = "checked";
+						$name = "<font class=itemselected>$name</font>";
+						$sS1 = ""; $sS2 = "";
+					}
+					else 
+					{
+						$BG_COLOR = "#F5F5F5";
+						$arrow = "&nbsp;";
+						$style = 'style="border-right:0px"';
+						$check = NULL;
+						$sS1 = 	' style="cursor: pointer" onMouseOver=active(this); onMouseOut="deactive(this);"';				
+						$sS2 =  ' onClick=goPage("'.$url.'&CURID='.$nid.'"); ';
+					}
+					
+					$pageContent .= '
+					<tr valign="middle" bgcolor="'.$BG_COLOR.'" '.$sS1.' height="30">
+						<td align="center" width="5" class="rowlist"><input type="checkbox" value="'.$nid.'" '.$check.' name="chkid"></td>
+						<td width="250" '.$sS2.' class="rowlist" title="'.$itemTitle.'">'.$name.'</td>
+						<td width="80" align="center" class="rowlist"><input name="itOrder_'.$nid.'" value="'.$order.'" class="listOrderTxtBox" onChange="getObjChange(\''.$nid.'\',this,\'listOrder\',\'listId_O\')"></td>
+						<td width="40" align="center" class="rowlist"><input type="checkbox" name="itView_'.$nid.'" '.$view.' onClick="getObjChange(\''.$nid.'\',this,\'listView\',\'listId_V\')"></td>
+						<td '.$sS2.' width="5" class="rowlist">'.$arrow.'</td>
+					</tr>';
+				}
+			}
+		}
+		else
+		{ 
+			$pageContent .= NORESULT;
+		}		
+		$rightContentFile = "listorderinfos.php";		
+		
+		include_once("listlistorder.php");
+		break;			
+}
+?>

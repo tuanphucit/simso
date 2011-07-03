@@ -1,0 +1,2156 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="vinaphone-tuquy-nguquy_files/filelist.xml">
+<link rel=Edit-Time-Data href="vinaphone-tuquy-nguquy_files/editdata.mso">
+<link rel=OLE-Object-Data href="vinaphone-tuquy-nguquy_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>User</o:LastAuthor>
+  <o:LastSaved>2009-07-02T11:55:08Z</o:LastSaved>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+.font5
+	{color:windowtext;
+	font-size:13.5pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font6
+	{color:windowtext;
+	font-size:13.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font7
+	{color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font10
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.font11
+	{color:red;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font12
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style21
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:Hyperlink;
+	mso-style-id:8;}
+a:link
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+a:visited
+	{color:purple;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl25
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl26
+	{mso-style-parent:style0;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl27
+	{mso-style-parent:style0;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+.xl28
+	{mso-style-parent:style0;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+.xl29
+	{mso-style-parent:style0;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl30
+	{mso-style-parent:style0;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	text-align:center;
+	white-space:normal;}
+.xl31
+	{mso-style-parent:style0;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:center;
+	white-space:normal;}
+.xl32
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:none;}
+.xl33
+	{mso-style-parent:style0;
+	font-size:13.5pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl34
+	{mso-style-parent:style0;
+	font-size:13.5pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+.xl35
+	{mso-style-parent:style0;
+	font-size:13.5pt;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+.xl36
+	{mso-style-parent:style21;
+	color:blue;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl37
+	{mso-style-parent:style21;
+	color:blue;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl38
+	{mso-style-parent:style21;
+	color:blue;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl39
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl40
+	{mso-style-parent:style0;
+	white-space:normal;}
+.xl41
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl42
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl43
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	white-space:normal;}
+.xl44
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:none;
+	white-space:normal;}
+.xl45
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl46
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+.xl47
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	white-space:normal;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>vinaphone-tuquy-nguquy</x:Name>
+    <x:WorksheetOptions>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>26</x:ActiveRow>
+       <x:ActiveCol>6</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>8955</x:WindowHeight>
+  <x:WindowWidth>14955</x:WindowWidth>
+  <x:WindowTopX>240</x:WindowTopX>
+  <x:WindowTopY>315</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=621 style='border-collapse:
+ collapse;table-layout:fixed;width:465pt'>
+ <col width=115 style='mso-width-source:userset;mso-width-alt:4205;width:86pt'>
+ <col width=92 style='mso-width-source:userset;mso-width-alt:3364;width:69pt'>
+ <col width=115 style='mso-width-source:userset;mso-width-alt:4205;width:86pt'>
+ <col width=92 style='mso-width-source:userset;mso-width-alt:3364;width:69pt'>
+ <col width=115 style='mso-width-source:userset;mso-width-alt:4205;width:86pt'>
+ <col width=92 style='mso-width-source:userset;mso-width-alt:3364;width:69pt'>
+ <tr height=23 style='mso-height-source:userset;height:17.25pt'>
+  <td colspan=6 height=23 class=xl33 width=621 style='border-right:.5pt solid black;
+  height:17.25pt;width:465pt'>Sim tứ quý - ngũ quý<font class="font6"> </font><font
+  class="font5">- WWW.NGANHANGSODEP.COM</font><font class="font7"><span
+  style='mso-spacerun:yes'> </span></font></td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl24 width=115 style='height:16.5pt;width:86pt'>SỐ SIM</td>
+  <td class=xl25 width=92 style='width:69pt'>GIÁ TIỀN</td>
+  <td class=xl25 width=115 style='width:86pt'>SỐ SIM</td>
+  <td class=xl25 width=92 style='width:69pt'>GIÁ TIỀN</td>
+  <td class=xl25 width=115 style='width:86pt'>SỐ SIM</td>
+  <td class=xl25 width=92 style='width:69pt'>GIÁ TIỀN</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0916.888888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="979000000">979,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`09.456.88888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="280000000">280,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`091.22.99999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="183000000">183,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`091.38.99999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="168000000">168,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942666666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="165000000">165,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`091.61.99999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="150000000">150,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`091.678.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="128000000">128,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`091.29.88888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="110000000">110,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253999999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="86000000">86,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0944668888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="80000000">80,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0914.77.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="79999000">79,999,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.55.66.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="79000000">79,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234.66.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="79000000">79,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.333.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="75000000">75,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0944899999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="75000000">75,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`094.333.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="75000000">75,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942699999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="70000000">70,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942988888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="70000000">70,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0917.88.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="68000000">68,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.686.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="68000000">68,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0.9449.88888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="61000000">61,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0944669999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="60000000">60,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253666666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="59000000">59,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942668888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="55000000">55,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0946299999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="55000000">55,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.868.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="53000000">53,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.777.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="53000000">53,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0949779999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="50000000">50,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942889999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="50000000">50,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0916.33.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="48000000">48,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0919766666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="45000000">45,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0915.11.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="45000000">45,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942669999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="45000000">45,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.55.88.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="45000000">45,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0913.16.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="45000000">45,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.686.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="45000000">45,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0947668888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="45000000">45,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0913636666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="45000000">45,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`09.44.77.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="43000000">43,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0912.80.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="40000000">40,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253688888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="39000000">39,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239398888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="39000000">39,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0942226666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="38000000">38,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253588888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="36000000">36,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.898.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="36000000">36,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.777.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="36000000">36,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.999.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="36000000">36,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0913616666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="36000000">36,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0949778888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="35000000">35,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0949939999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="35000000">35,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.56.88.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="35000000">35,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0949929999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="35000000">35,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0916455555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="35000000">35,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238389999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="35000000">35,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01253699999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="33000000">33,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253599999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="33000000">33,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0913533333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="33000000">33,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0944868888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="30000000">30,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.234.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="30000000">30,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235788888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="29000000">29,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`094.234.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="28000000">28,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.234.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="28000000">28,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0947478888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="28000000">28,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`091.804.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="28000000">28,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0948228888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="28000000">28,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0948.11.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="28000000">28,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0942227777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="28000000">28,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.236.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="28000000">28,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234998888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="28000000">28,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0946.33.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="27000000">27,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.777.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="27000000">27,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.246.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="27000000">27,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.345.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="26000000">26,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`09.48.58.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="26000000">26,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`09.42.42.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="26000000">26,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`09.4343.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="26000000">26,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943539999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="25000000">25,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.28.55555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="25000000">25,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0943.11.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="25000000">25,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.880.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="25000000">25,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.616.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="25000000">25,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0125.696.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="25000000">25,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.282.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="23800000">23,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942678888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="22500000">22,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238848888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="22500000">22,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01237668888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="22000000">22,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.789.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="21100000">21,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0125.696.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="21000000">21,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.246.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="21000000">21,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0944.95.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="20500000">20,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.357.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="20000000">20,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.3456666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="20000000">20,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0916478888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="20000000">20,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.13689999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="20000000">20,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238339999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="20000000">20,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`091.874.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="19800000">19,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.777.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="19000000">19,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.616.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="19000000">19,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01237669999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="18900000">18,900,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.474.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="18000000">18,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942698888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="18000000">18,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012345.5.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="18000000">18,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234.82.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="18000000">18,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`09.48.47.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="18000000">18,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0948.35.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="17000000">17,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.3879.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="16800000">16,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.686.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="16800000">16,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253566666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="16800000">16,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01259868888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="16800000">16,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123438.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="16800000">16,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01236558888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="16500000">16,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012345.0.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="16000000">16,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0944298888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="16000000">16,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.665.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="16000000">16,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012345.0.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="16000000">16,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253655555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15500000">15,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`09445.29999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15100000">15,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`094.331.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.234.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0949829999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01253766666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.667.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238089999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0943169999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253677777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.262.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012345.1.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0946.30.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.39.22.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="15000000">15,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238386666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="14500000">14,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.666.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="14000000">14,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942109999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="14000000">14,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01239396666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="13900000">13,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253533333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="13900000">13,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253577777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="13900000">13,900,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123456.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="13800000">13,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0917.33.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="13800000">13,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.32.33.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="13800000">13,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01235059999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="13000000">13,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253755555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="13000000">13,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234336666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="13000000">13,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01253633333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="13000000">13,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943629999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12500000">12,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0944639999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12500000">12,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01253733333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12500000">12,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`09.43.44.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01258.698.888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01256.898.888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.669.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01237.00.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.669.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01255.998.888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0948997777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01237.00.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0946729999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942719999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01236556666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="12000000">12,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.397.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="11800000">11,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.53.55.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="11500000">11,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.33.80.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="11000000">11,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.233.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="11000000">11,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238.90.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="11000000">11,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01235758888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="11000000">11,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01233.959999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="10100000">10,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942885555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="10000000">10,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.262.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="10000000">10,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943007777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="10000000">10,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.622.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="10000000">10,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0944435555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="10000000">10,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235759999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9900000">9,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01233468888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9800000">9,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01253522222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9600000">9,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239758888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9500000">9,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239395555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9500000">9,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01239759999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9500000">9,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01236359999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9500000">9,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238528888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9300000">9,300,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01236618888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9300000">9,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253622222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9300000">9,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01233.00.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9200000">9,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01239.22.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9000000">9,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942221111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9000000">9,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238529999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9000000">9,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01253722222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9000000">9,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.789.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9000000">9,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01258139999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9000000">9,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234796666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9000000">9,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239129999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9000000">9,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.824.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="9000000">9,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01253511111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8900000">8,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234378888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8500000">8,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234379999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8500000">8,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234479999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8500000">8,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234478888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8500000">8,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253098888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8500000">8,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0949.50.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.609.999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01252.769.999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01252.768.888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01258.3.4.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.55.03.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01274.959.999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.55.03.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.55.02.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.55.02.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.393.0.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.509.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01235.0.8.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238387777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.357.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234319999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01258.3.4.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238159999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="8000000">8,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01214500000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7900000">7,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253611111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7900000">7,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01233469999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7600000">7,600,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`091.336.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7500000">7,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.246.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7500000">7,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0912.18.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7500000">7,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`091.396.1111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7500000">7,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253711111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7500000">7,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.2456666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7200000">7,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238385555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7000000">7,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239936666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="7000000">7,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239797777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6900000">6,900,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01233048888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6900000">6,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253500000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6900000">6,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235469999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6900000">6,900,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01253544444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6900000">6,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01236508888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6800000">6,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.5557.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6800000">6,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0945.98.1111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6800000">6,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01232849999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6800000">6,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.789.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6800000">6,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01253600000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6800000">6,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0912.63.1111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6600000">6,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253644444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6500000">6,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01237809999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6500000">6,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234795555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6500000">6,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.56.56.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6300000">6,300,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01239178888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="6300000">6,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0919853333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5900000">5,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253700000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5900000">5,900,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0125.212.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5800000">5,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.733.68888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5800000">5,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.212.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5800000">5,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.789.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5700000">5,700,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234486666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5500000">5,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0127.336.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5500000">5,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0125.861.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5500000">5,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234396666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5500000">5,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239935555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5500000">5,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01239937777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5500000">5,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01253744444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5400000">5,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.861.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5300000">5,300,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0125.246.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5300000">5,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.379.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5100000">5,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.262.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0944937777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943195555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943765555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01213.344.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943175555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0914.70.2222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0943715555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942217777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0948057777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238383333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01257.5.6.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="5000000">5,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.848.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4800000">4,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`09136.2.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4800000">4,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.52.69.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4800000">4,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.865.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4800000">4,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234.18.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4700000">4,700,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.865.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.668.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.55.82.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.994.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.789.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0125.246.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.774.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239756666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0916.30.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0917.25.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123455.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01239757777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0946884444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4500000">4,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.57.62.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4300000">4,300,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.709.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4300000">4,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.52.67.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4300000">4,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.708.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.52.83.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.904.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.318.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.52.13.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.57.10.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.57.08.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.771.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.613.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.52.14.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.52.15.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.57.54.8888</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4200000">4,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.581.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4100000">4,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.843.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4100000">4,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239706666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238595555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0943221111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239546666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01236506666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0943004444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942880000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942664444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0949224444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235936666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943220000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0942114444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235046666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.52.13.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.38.38.2222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238727777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216780000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.772.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.782.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.585.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.273.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238105555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="4000000">4,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238.767777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3950000">3,950,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.541.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3900000">3,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.614.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3900000">3,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.52.14.9999</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3900000">3,900,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01237797777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3800000">3,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.36.37.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3800000">3,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0127.339.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3800000">3,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0125.246.2222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3650000">3,650,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235465555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3600000">3,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239765555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.331.86666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.52.39.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01237.01.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.843.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235935555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235937777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234793333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234315555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234393333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0943574444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238157777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0916934444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238165555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.59.18.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.357.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3500000">3,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.789.2222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3400000">3,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.549.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3400000">3,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.581.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3400000">3,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01272.606.666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3300000">3,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.58.78.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3300000">3,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.883.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3300000">3,300,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01215.244.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3300000">3,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.344.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3300000">3,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.789.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3200000">3,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01239147777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3200000">3,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.837.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3200000">3,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.317.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3200000">3,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0125.246.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3200000">3,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234715555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3200000">3,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235467777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3100000">3,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.517.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942394444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238582222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0943384444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942894444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0944614444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.317.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943172222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942890000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0942684444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.175.555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.607.777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01272.176.666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="3000000">3,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.246.1111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2950000">2,950,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234792222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2800000">2,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01256012222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2800000">2,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.353.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2800000">2,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.57.54.6666</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2800000">2,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01236.44.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2600000">2,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.52.39.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2600000">2,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.588.2222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2600000">2,600,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234484444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0948214444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943760000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0943824444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238753333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239943333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.52.39.7777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01256013333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.53.50.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0943194444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943174444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01236.44.2222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.789.1111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234382222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.849.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0947690000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.627.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0942184444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0943170000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238380000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2500000">2,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.225.2222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2400000">2,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238593333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2300000">2,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234.19.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.357.1111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01255.86.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239763333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.227.5555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01235973333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239942222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239213333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01272.965.555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0943614444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.39.80000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2200000">2,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234.16.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2100000">2,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.618.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2100000">2,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.959.1111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2000000">2,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`094.235.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2000000">2,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239762222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2000000">2,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239934444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2000000">2,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01235972222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2000000">2,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234394444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2000000">2,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238752222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2000000">2,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238162222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="2000000">2,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0125.246.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1900000">1,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.52.39.2222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1900000">1,900,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234713333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1900000">1,900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.343.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1800000">1,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234390000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1800000">1,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234763333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1800000">1,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238780000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1800000">1,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.605.555</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1800000">1,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0125.876.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1800000">1,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01219.223.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1800000">1,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.362.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1800000">1,800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01272.173.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1800000">1,800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01233.12.1111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1700000">1,700,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234762222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1690000">1,690,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234712222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1650000">1,650,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.34.70000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238161111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01256010000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.223.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`09.45.92.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238121111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.894.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.224.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234384444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.280.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.827.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.976.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.823.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.826.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01272.963.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.33.16.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`094.953.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1600000">1,600,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.52.39.3333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1500000">1,500,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.323.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.364.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01213.262.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.253.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.334.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01215.243.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.967.777</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.324.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01216.343.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.353.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.382.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01216.332.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.392.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.273.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01216.302.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.312.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.314.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01213.382.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.264.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.242.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01215.213.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01219.262.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.383.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01216.352.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.342.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.331.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01214.143.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.203.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.232.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01215.224.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.313.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.303.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01215.263.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.262.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.252.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01214.113.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.384.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.354.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01214.112.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.362.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.202.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01214.114.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.274.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1400000">1,400,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01255761111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1300000">1,300,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234320000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1300000">1,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01256014444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1300000">1,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238104444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1300000">1,300,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01255760000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1300000">1,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239941111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1300000">1,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.262.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1300000">1,300,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238.22.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1300000">1,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01257960000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1300000">1,300,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239940000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1300000">1,300,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01216.390.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.384.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.361.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01215.221.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.214.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01214.110.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238.22.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.321.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.234.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`012.52.39.1111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.330.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234760000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01234764444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.220.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.204.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01213.234.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.254.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.364.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01216.394.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1200000">1,200,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238751111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238594444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238590000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239174444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238160000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01239764444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01239761111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238294444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01255731111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01238164444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01255734444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01255740000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235970000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235934444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01235104444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01255724444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01255741111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238351111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01233.58.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01255730000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01238754444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01235974444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.847.1111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01235971111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1100000">1,100,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.210.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.221.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01214.140.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.380.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.230.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01213.360.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.340.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.201.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01213.261.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.341.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.301.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01216.341.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.260.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.271.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01216.310.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.320.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.351.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01216.361.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.381.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.391.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01216.350.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.360.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01216.380.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01272.964.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.261.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.340.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01215.250.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.381.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.241.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01214.141.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.270.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.231.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01215.240.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01215.251.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="1000000">1,000,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01213.260.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="900000">900,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01272.603.333</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="900000">900,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.52.39.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="880000">880,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`012.52.39.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="880000">880,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.847.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="850000">850,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234.81.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="850000">850,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`0123.823.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="850000">850,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`0123.847.0000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="850000">850,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01234.27.4444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="850000">850,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.172.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="800000">800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01272.604.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="800000">800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.610.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="800000">800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.961.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="800000">800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01272.962.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="800000">800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.174.444</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="800000">800,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.602.222</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="800000">800,000</td>
+ </tr>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 class=xl26 width=115 style='height:16.5pt;width:86pt'>`01272.601.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="700000">700,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.170.000</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="700000">700,000</td>
+  <td class=xl28 width=115 style='width:86pt'>`01272.171.111</td>
+  <td class=xl27 width=92 style='width:69pt' x:num="700000">700,000</td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td height=17 class=xl29 width=115 style='height:12.75pt;width:86pt'>&nbsp;</td>
+  <td class=xl30></td>
+  <td class=xl31></td>
+  <td class=xl30></td>
+  <td></td>
+  <td class=xl32>&nbsp;</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=6 height=17 class=xl36 width=621 style='border-right:.5pt solid black;
+  height:12.75pt;width:465pt'><a href="http://www.nganhangsodep.com/"><span
+  style='font-weight:700;font-family:Arial, sans-serif;mso-font-charset:0'>WWW.NGANHANGSODEP.COM<font
+  class="font10"><span style='mso-spacerun:yes'>   </span>Trung tâm sim số đẹp
+  lớn nhất việt nam</font></span></a></td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td colspan=6 height=17 class=xl39 width=621 style='border-right:.5pt solid black;
+  height:12.75pt;width:465pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=6 height=20 class=xl42 width=621 style='border-right:.5pt solid black;
+  height:15.0pt;width:465pt'>LIÊN HỆ MUA SIM QUA ĐIỆN THOẠI</td>
+ </tr>
+ <tr height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td colspan=6 height=17 class=xl39 width=621 style='border-right:.5pt solid black;
+  height:12.75pt;width:465pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=6 height=20 class=xl45 width=621 style='border-right:.5pt solid black;
+  height:15.0pt;width:465pt'>Hotline1: <font class="font11">0944.666.889</font><font
+  class="font12"> - </font><font class="font7">Hotline2: </font><font
+  class="font11">0912.79.79.16</font><font class="font7"> </font><font
+  class="font12">-</font><font class="font7"> Hotline3: </font><font
+  class="font11">0912.79.79.18</font></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=115 style='width:86pt'></td>
+  <td width=92 style='width:69pt'></td>
+  <td width=115 style='width:86pt'></td>
+  <td width=92 style='width:69pt'></td>
+  <td width=115 style='width:86pt'></td>
+  <td width=92 style='width:69pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
