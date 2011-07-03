@@ -6,21 +6,27 @@
             </div><!-- End #banner -->
             <div id="menu">
                 <ul>
-                    <li><a href="#">Trang chủ</a></li>
-                    <li><a href="#">Vinaphone</a></li>
-                    <li><a href="#">Mobiphone</a></li>
-                    <li><a href="#">Viettel</a></li>
-                    <li><a href="#">Vietnamobile</a></li>
-                    <li><a href="#">Tin Tức</a></li>
-                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="<?=$_URL_BASE?>/index.php">Trang chủ</a></li>
+                    <li><a href="<?=$_URL_BASE?>/index.php/8/Vinaphone">Vinaphone</a></li>
+                    <li><a href="<?=$_URL_BASE?>/index.php/9/Mobifone">Mobiphone</a></li>
+                    <li><a href="<?=$_URL_BASE?>/index.php/7/Viettel">Viettel</a></li>
+                    <li><a href="<?=$_URL_BASE?>/index.php/index.php/41/Vietnamobile">Vietnamobile</a></li>
+                    <li><a href="<?=$_URL_BASE?>/index.php/3/tin-tuc">Tin Tức</a></li>
+                    <li><a href="<?=$_URL_BASE?>/index.php/2/huong-dan-mua-sim">Hướng dẫn mua sim</a></li>
+					<li><a href = "<?=$_URL_BASE?>/index.php/5/thanh-toan"> Hướng dẫn thanh toán</a></li>
                 </ul>
             </div><!-- End #menu -->
-            <div id="top1"><!-- phần này chứa ô tìm kiếm và slideshow ảnh -->
+            
+			
+			<div id="top1"><!-- phần này chứa ô tìm kiếm và slideshow ảnh -->
                 <div id="top1-left">
-                    <form name="search" action="#" method="post">
+                    <form name="searchFrom" onSubmit="return doSubmitsearchForm()" action="<?=$_URL_BASE?>/index.php/timkiem" method="post">
                         <div>
-                            <input class="search-input" type="text" name="search" />
-                            <input class="search-button" type="submit" name="submit" value="Tìm kiếm" />
+			<input type="text" id="searchKeyword" name="searchKeyword" value="<?=$define["var_nhaptukhoa"]?>" onblur="if(this.value=='')this.value='<?=$define["var_nhaptukhoa"]?>';" onfocus="if(this.value=='<?=$define["var_nhaptukhoa"]?>')this.value='';">
+
+
+                    <!--        <input class="search-input" type="text" name="search" /> -->
+                           <input class="search-button" type="submit" name="submit" value="Tìm kiếm" />
                         </div>
                         <div>
                             <input type="radio" name="a" />
@@ -29,17 +35,18 @@
                             <label>11 số</label>
                             <input type="radio" name="c" />
                             <label>Tất cả các loại</label>
+							
                         </div>
                     </form>
                     <p>* Để tìm sim bắt đầu bằng 0935, quý khách nhập vào <a href="#">0935*</a></p>
                     <p>* Để tìm sim có đuôi là 88 và có đầu số 098, nhập vào <a href="#">098*88</a></p>
                 </div><!-- End #top1-left -->
                 <div id="top1-right">
-                    <img name="slideshow1" alt="slideshow" src="images/slideshow1.gif" />
-                    <img name="slideshow2" alt="slideshow" src="images/slideshow2.gif" />
-                    <img name="slideshow3" alt="slideshow" src="images/slideshow3.jpg" />
-                    <img name="slideshow4" alt="slideshow" src="images/slideshow4.gif" />
-                    <img name="slideshow5" alt="slideshow" src="images/slideshow5.jpg" />
+                    <img name="slideshow1" alt="slideshow" src="<?=$_IMG_DIR?>/slideshow1.gif" />
+                    <img name="slideshow2" alt="slideshow" src="<?=$_IMG_DIR?>/slideshow2.gif" />
+                    <img name="slideshow3" alt="slideshow" src="<?=$_IMG_DIR?>/slideshow3.jpg" />
+                    <img name="slideshow4" alt="slideshow" src="<?=$_IMG_DIR?>/slideshow4.gif" />
+                    <img name="slideshow5" alt="slideshow" src="<?=$_IMG_DIR?>/slideshow5.jpg" />
                     <div class="number-list">
                         <a name="slideshow1">1</a>
                         <a name="slideshow2">2</a>
@@ -49,7 +56,10 @@
                     </div>
                 </div><!-- End #top1-right -->
             </div><!-- End #top1 -->
-            <div id="top2"><!-- phần này show ra các loại sim và đặt sim theo yêu cầu -->
+           
+
+
+		   <div id="top2"><!-- phần này show ra các loại sim và đặt sim theo yêu cầu -->
                 <div class="top2-box top2-box1">
                     <p>Tìm nhanh theo loại</p>
                     <a href="#">Sim năm sinh</a>
