@@ -1,0 +1,1 @@
+[21-Feb-2011 20:01:53] PHP Fatal error:  Call to undefined function _SESSION_REGISTER() in /home/simdepha/public_html/modules/nx.php on line 32

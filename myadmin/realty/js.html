@@ -1,0 +1,261 @@
+<script language="javascript">
+function getObjChange(index,obj,listStr,listId)
+{
+	//var myFrm = document.frmList;
+	var listStr = eval('document.frmList.'+listStr);
+	var listId = eval('document.frmList.'+listId);
+	var lid = listId.value;
+	var lst = listStr.value;
+	var arrid = lid.split(",");
+	var arrst = lst.split(",");
+	var count = 0, i = 0;
+	var mark;
+	while(i<arrid.length && count==0)
+	{
+		if(index==arrid[i])
+		{
+			count++;
+			mark = i;
+		}
+		i++;
+	}
+	if(count>0)
+	{
+		var strSt = "";
+		if(obj.type=='checkbox')
+		{
+			if(obj.checked) arrst[mark] = '1';
+			else arrst[mark] = '0';
+			for(i=0;i<arrst.length-1;i++) strSt += arrst[i]+',';
+			listStr.value = strSt;
+		}
+		else if(arrst[mark]!=obj.value)
+		{
+			arrst[mark] = obj.value;
+			for(i=0;i<arrst.length-1;i++) strSt += arrst[i]+',';
+			listStr.value = strSt;
+		}
+	}
+	else
+	{
+		listId.value += index+',';
+		if(obj.type=='checkbox')
+		{
+			if(obj.checked) listStr.value += '1,';
+			else listStr.value += '0,';
+		}
+		else listStr.value += obj.value+',';
+	}
+}
+
+function updates()
+{
+	var objFrm = document.frmList;
+	objFrm.action = '<?=$url?>&action=updates';
+	objFrm.submit();
+}
+
+var countClick = 0;
+
+function activForm(pur)
+{
+	objFrm = document.frmEdit;
+	if(countClick == 0)
+	{
+		curName = objFrm.nname.value;
+		curPrice = objFrm.price.value;
+		curArea = objFrm.area.value;
+		curDate = objFrm.ndate.value;
+		if(objFrm.rType)
+		{
+			curType = objFrm.rType.value;
+		}
+		if(objFrm.rAspect)
+		{
+			curAspect = objFrm.rAspect.value;
+		}
+		if(objFrm.rPlace)
+		{
+			curPlace = objFrm.rPlace.value;
+		}
+		curShow = objFrm.show.value;
+		curDes = objFrm.shortdes.value;
+		curOrder = objFrm.order.value;
+		curView = objFrm.view.checked;
+		curCURID  = objFrm.CURID.value;
+	}
+	objFrm.nname.readOnly = 0;
+	objFrm.price.readOnly = 0;
+	objFrm.area.readOnly = 0;
+	objFrm.ndate.readOnly = 0;
+	objFrm.show.readOnly = 0;
+	objFrm.shortdes.readOnly = 0;
+	objFrm.order.readOnly = 0;
+	objFrm.view.disabled = false;
+	if(objFrm.rType)
+	{
+		objFrm.rType.disabled = false;
+	}
+	if(objFrm.rAspect)
+	{
+		objFrm.rAspect.disabled = false;
+	}
+	if(objFrm.rPlace)
+	{
+		objFrm.rPlace.disabled = false;
+	}
+	objFrm.image1.style.display = "";
+	objFrm.image2.style.display = "";
+	if(document.all["btnUpdate"]) document.all["btnUpdate"].style.display = "";
+	if(document.all["btnCancel"]) document.all["btnCancel"].style.display = "";
+	if(document.all["btnEdit"]) document.all["btnEdit"].style.display = "none";
+			
+	if(pur == 'insert')
+	{			
+		objFrm.nname.value = '';
+		objFrm.price.value = '';
+		objFrm.area.value = '';
+		objFrm.ndate.value = '';
+		objFrm.show.value = 0;
+		objFrm.shortdes.value = '';
+		objFrm.order.value = '20';
+		objFrm.view.checked = true;
+		objFrm.CURID.value = '';
+		if(objFrm.rType)
+		{
+			objFrm.rType.value = '';
+		}
+		if(objFrm.rAspect)
+		{
+			objFrm.rAspect.value = '';
+		}
+		if(objFrm.rPlace)
+		{
+			objFrm.rPlace.value = '';
+		}
+		CURIMAGE1.style.display = "none";
+		CURIMAGE2.style.display = "none";
+		if(document.all["btnDelete"]) document.all["btnDelete"].style.display = "none";
+	}
+	if(pur == 'edit' && countClick > 0)
+	{
+		objFrm.nname.value = curName;
+		objFrm.price.value = curPrice;
+		objFrm.area.value = curArea;
+		objFrm.ndate.value = curDate;
+		objFrm.show.value = curShow;
+		objFrm.shortdes.value = curDes;
+		if(objFrm.rType)
+		{
+			objFrm.rType.value = curType;
+		}
+		if(objFrm.rAspect)
+		{
+			objFrm.rAspect.value = curAspect;
+		}
+		if(objFrm.rPlace)
+		{
+			objFrm.rPlace.value = curPlace;
+		}
+		objFrm.order.value = curOrder;
+		objFrm.view.checked = curView;
+		objFrm.CURID.value = curCURID;
+		CURIMAGE1.style.display = "";
+		CURIMAGE2.style.display = "";
+	}
+	countClick ++;
+}
+
+function notExe()
+{
+	if(document.all["btnUpdate"]) document.all["btnUpdate"].style.display = "none";
+	if(document.all["btnCancel"]) document.all["btnCancel"].style.display = "none";
+	if(document.all["btnEdit"]) document.all["btnEdit"].style.display = "";
+	if(document.all["btnDelete"]) document.all["btnDelete"].style.display = "";
+	
+	objFrm.nname.readOnly = 1;
+	objFrm.price.readOnly = 1;
+	objFrm.area.readOnly = 1;
+	objFrm.ndate.readOnly = 1;
+	objFrm.show.readOnly = 1;
+	objFrm.shortdes.readOnly = 1;
+	objFrm.order.readOnly = 1;
+	if(objFrm.rType)
+	{
+		objFrm.rType.disabled = true;
+	}
+	if(objFrm.rAspect)
+	{
+		objFrm.rAspect.disabled = true;
+	}
+	if(objFrm.rPlace)
+	{
+		objFrm.rPlace.disabled = true;
+	}
+	objFrm.view.disabled = true;
+	objFrm.image1.style.display = "none";
+	objFrm.image2.style.display = "none";
+	CURIMAGE1.style.display = "";
+	CURIMAGE2.style.display = "";
+
+	objFrm.nname.value = curName;
+	objFrm.price.value = curPrice;
+	objFrm.area.value = curArea;
+	objFrm.ndate.value = curDate;
+	objFrm.show.value = curShow;
+	objFrm.shortdes.value = curDes;
+	if(objFrm.rType)
+	{
+		objFrm.rType.value = curType;
+	}
+	if(objFrm.rAspect)
+	{
+		objFrm.rAspect.value = curAspect;
+	}
+	if(objFrm.rPlace)
+	{
+		objFrm.rPlace.value = curPlace;
+	}
+	objFrm.order.value = curOrder;
+	objFrm.CURID.value = curCURID;
+}
+
+function checkSubmit()
+{
+	objFrm = document.frmEdit;
+	if(objFrm.nname.value=="")
+	{
+		alert("Ban vui long nhap tieu de cua van ban!");
+		objFrm.nname.focus();
+		return false;
+	}		
+	if(objFrm.rType) if(objFrm.rType.value == '')
+	{
+		alert("Ban vui long chon loai bat dong san!");
+		objFrm.rType.focus();
+		return false;
+	}		
+	if(objFrm.rAspect) if(objFrm.rAspect.value == '')
+	{
+		alert("Ban vui long chon huong nha!");
+		objFrm.rAspect.focus();
+		return false;
+	}		
+	if(objFrm.rPlace) if(objFrm.rPlace.value == '')
+	{
+		alert("Ban vui long chon khu vuc!");
+		objFrm.rPlace.focus();
+		return false;
+	}		
+	return true;
+}
+
+function update()
+{
+	var objFrm = document.frmEdit;
+	if(checkSubmit()) 
+	{
+		objFrm.submit();
+	}
+}
+</script>

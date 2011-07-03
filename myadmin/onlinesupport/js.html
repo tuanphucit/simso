@@ -1,0 +1,143 @@
+<script language="javascript">
+function getObjChange(index,obj,listStr,listId)
+{
+	//var myFrm = document.frmList;
+	var listStr = eval('document.frmList.'+listStr);
+	var listId = eval('document.frmList.'+listId);
+	var lid = listId.value;
+	var lst = listStr.value;
+	var arrid = lid.split(",");
+	var arrst = lst.split(",");
+	var count = 0, i = 0;
+	var mark;
+	while(i<arrid.length && count==0)
+	{
+		if(index==arrid[i])
+		{
+			count++;
+			mark = i;
+		}
+		i++;
+	}
+	if(count>0)
+	{
+		var strSt = "";
+		if(obj.type=='checkbox')
+		{
+			if(obj.checked) arrst[mark] = '1';
+			else arrst[mark] = '0';
+			for(i=0;i<arrst.length-1;i++) strSt += arrst[i]+',';
+			listStr.value = strSt;
+		}
+		else if(arrst[mark]!=obj.value)
+		{
+			arrst[mark] = obj.value;
+			for(i=0;i<arrst.length-1;i++) strSt += arrst[i]+',';
+			listStr.value = strSt;
+		}
+	}
+	else
+	{
+		listId.value += index+',';
+		if(obj.type=='checkbox')
+		{
+			if(obj.checked) listStr.value += '1,';
+			else listStr.value += '0,';
+		}
+		else listStr.value += obj.value+',';
+	}
+}
+
+function updates()
+{
+	var objFrm = document.frmList;
+	objFrm.action = '<?=$url?>&action=updates';
+	objFrm.submit();
+}
+
+var countClick = 0;
+
+function activForm(pur)
+{
+	objFrm = document.frmEdit;
+	if(countClick==0)
+	{
+		curName = objFrm.nname.value;
+		curLinkto = objFrm.linkto.value;
+		curOrder = objFrm.order.value;
+		curView = objFrm.view.checked;
+		curCURID = objFrm.CURID.value;
+	}
+	objFrm.nname.readOnly = 0;
+	objFrm.linkto.readOnly = 0;
+	objFrm.order.readOnly = 0;
+	objFrm.view.disabled = false;
+	if(document.all["btnUpdate"]) document.all["btnUpdate"].style.display = "";
+	if(document.all["btnCancel"]) document.all["btnCancel"].style.display = "";
+	if(document.all["btnEdit"]) document.all["btnEdit"].style.display = "none";
+			
+	if(pur=='insert')
+	{			
+		objFrm.nname.value = '';
+		objFrm.linkto.value = '';
+		objFrm.order.value = '20';
+		objFrm.view.checked = true;
+		objFrm.CURID.value = '';
+		if(document.all["btnDelete"]) document.all["btnDelete"].style.display = "none";
+	}
+	if(pur=='edit' && countClick>0)
+	{
+		objFrm.nname.value = curName;
+		objFrm.linkto.value = curLinkto;
+		objFrm.order.value = curOrder;
+		objFrm.view.checked = curView;
+		objFrm.CURID.value = curCURID;
+	}
+	countClick++;
+}
+
+function notExe()
+{
+	if(document.all["btnUpdate"]) document.all["btnUpdate"].style.display = "none";
+	if(document.all["btnCancel"]) document.all["btnCancel"].style.display = "none";
+	if(document.all["btnEdit"]) document.all["btnEdit"].style.display = "";
+	if(document.all["btnDelete"]) document.all["btnDelete"].style.display = "";
+	
+	objFrm.nname.readOnly = 1;
+	objFrm.linkto.readOnly = 1;
+	objFrm.order.readOnly = 1;
+	objFrm.view.disabled = true;
+	
+	objFrm.nname.value = curName;
+	objFrm.linkto.value = curLinkto;
+	objFrm.order.value = curOrder;
+	objFrm.CURID.value = curCURID;
+}
+
+function checkSubmit()
+{
+	if(objFrm.nname.value=="")
+	{
+		alert("Ban vui long nhap tieu de cua module!");
+		objFrm.nname.focus();
+		return false;
+	}		
+	/*if(objFrm.linkto.value=="")
+	{
+		alert("Ban vui long nhap dia chi website!");
+		objFrm.linkto.focus();
+		return false;
+	}*/		
+	return true;
+}
+
+function doSubmit()
+{
+	objFrm = document.frmEdit;
+	if(checkSubmit())
+	{
+		objFrm.submit();
+	}
+	return;
+}
+</script>

@@ -1,0 +1,87 @@
+div.sample_popup { z-index: 999; }
+
+div.sample_popup div.menu_form_header
+{
+  border: 0px solid black;
+  border-bottom: none;
+  background-color:#208E35;
+  width: 220px;
+  height:      20px;
+  line-height: 19px;
+  vertical-align: middle;
+  /*background-image:url(../images/form_header.jpg) no-repeat;*/
+  background-image:url(../images/form_header.jpg);
+  text-decoration: none;
+  font-family: tahoma;
+  font-size: 12px;
+  font-weight:bold;
+  cursor:  default;
+  color:#000000;
+  text-align:center;
+  padding-top:2px;
+}
+div.sample_popup div.menu_form_body
+{
+	width: 220px;
+  /*border: 1px solid black;*/
+  background:url(../images/form.jpg) no-repeat left bottom;
+  /* background-image:url(../images/form.jpg);*/
+}
+div.sample_popup div.menu_form_body_regiter
+{
+   width: 220px;
+  /*border: 1px solid black;*/
+  background:url(../images/form_regiter.jpg) no-repeat left bottom;
+  /* background-image:url(../images/form.jpg);*/
+  
+}
+
+div.sample_popup img.menu_form_exit
+{
+  margin: 4px 5px 0px 0px;
+  cursor: pointer;
+  float:right;
+  color:#000000;
+}
+
+div.sample_popup table
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+div.sample_popup td
+{
+  padding: 0px 5px 1px 0px;
+
+  font-family: Times New Roman, Serif;
+  font-size:  13px;
+  color:   #004060;
+}
+
+div.sample_popup td
+{
+  padding: 0px 0px 1px 0px;
+}
+
+div.sample_popup form
+{
+  margin:  0px;
+  padding: 0px 10px 10px 2px;
+}
+
+div.sample_popup input.field
+{
+  border: 1px solid #808080;
+  font-family: Verdana, Sans-Serif;
+  font-size: 12px;
+}
+div.sample_popup input.btn
+{
+  margin-top: 2px;
+  border: 1px solid #E4D3C9;
+  background-color: #E4D3C9;
+  font-family:tahoma;
+  width:48;
+  font-size: 11px;
+}

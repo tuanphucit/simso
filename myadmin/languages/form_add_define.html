@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Administration - Add string define</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body class="rowform">
+<div align="center" class="modulehead">Add new string define</div>
+<form name="addDefine" method="post">
+<div style="padding-top:5px; padding-bottom:10px">
+	<span style="width:120px">Variant name:</span>
+	<span style="width:200px"><input name="varName" size="35" maxlength="100" class="textbox"></span>
+</div>
+<div style="padding-top:5px; padding-bottom:10px">
+	<span style="width:120px; vertical-align:top">String define:</span>
+	<span style="width:200px"><textarea name="varValue" cols="37" rows="6"></textarea></span>
+</div>
+<div style="padding-top:15px; padding-bottom:5px">
+	<span style="width:120px; vertical-align:top">&nbsp;</span>
+	<span style="width:250px">
+		<button type="submit" accesskey="s">&nbsp;&nbsp;<u>S</u>ave&nbsp;&nbsp;</button>&nbsp;&nbsp;
+		<button type="button" onClick="window.opener.focus(); window.close();" accesskey="l">&nbsp;&nbsp;C<u>l</u>ose&nbsp;&nbsp;</button>
+	</span>
+</div>
+<input type="hidden" name="myAction" value="save">
+</form>
+</body>
+</html>

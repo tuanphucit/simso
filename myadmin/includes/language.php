@@ -1,0 +1,145 @@
+<?
+// --- Labels of buttons ---
+define("btn_add","Th&#234;m");
+define("btn_edit","S&#7917;a");
+define("btn_del","X&#243;a");
+define("btn_upd","C&#7853;p nh&#7853;t");
+define("btn_cancel","H&#7911;y");
+define("btn_save","L&#432;u");
+define("btn_help","Tr&#7907; gi&#250;p");
+define("btn_send","G&#7917;i");
+
+// --- Title of buttons ---
+define("alt_add","Th&#234;m th&#244;ng tin");
+define("alt_edit","Ch&#7881;nh s&#7917;a th&#244;ng tin");
+define("alt_del","X&#243;a th&#244;ng tin");
+define("alt_upd","C&#7853;p nh&#7853;t nh&#7919;ng thay &#273;&#7893;i");
+define("alt_cancel","H&#7911;y b&#7887;");
+define("alt_save","L&#432;u l&#7841;i th&#244;ng tin");
+define("alt_help","Tr&#7907; gi&#250;p");
+define("alt_send","G&#7917;i");
+
+// --- Strings for system ---
+define("def_tukhoa","T&#7915; kh&#243;a");
+define("def_tim","T&#236;m");
+define("def_danhmuc","Danh m&#7909;c");
+define("def_thutu","Th&#7913; t&#7921;");
+define("def_hien","Hi&#7879;n");
+define("def_tongso","T&#7893;ng s&#7889;");
+define("def_trang","Trang");
+define("def_thongtin","Th&#244;ng tin");
+define("def_tatca","T&#226;t c&#7843;");
+define("def_chon","Ch&#7885;n");
+
+// --- Strings in left menu ---
+define("def_qlchung","Qu&#7843;n l&#253; h&#7879; th&#7889;ng");
+define("def_qlnoidung","Qu&#7843;n l&#253; d&#7919; li&#7879;u");
+define("def_thongtintrencotphai","Th&#244;ng tin tr&#234;n c&#7897;t ph&#7843;i");
+define("def_thongtintrencottrai","Th&#244;ng tin tr&#234;n c&#7897;t tr&#225;i");
+define("def_thongtincuoitrang","Th&#244;ng tin cu&#7889;i trang");
+define("def_qlcactrangtinh","Static pages");
+define("def_cacmuckhac","C&#225;c m&#7909;c kh&#225;c");
+
+define("def_trangchu","Trang ch&#7911;");
+define("def_mowebsite","Xem website");
+define("def_cauhinh","C&#7845;u h&#236;nh h&#7879; th&#7889;ng");
+define("def_qluser","Th&#224;nh vi&#234;n qu&#7843;n tr&#7883;");
+define("def_qlngonngu","Ng&#244;n ng&#7919;");
+define("def_thoat","Tho&#225;t");
+
+define("def_ngonngu","Ng&#244;n ng&#7919;");
+define("def_cumtuduocdinhnghia","C&#7909;m t&#7915; &#273;&#432;&#7907;c &#273;&#7883;nh ngh&#297;a");
+define("def_tenbien","T&#234;n bi&#7871;n");
+define("def_cumtumacdinh","C&#7909;m t&#7915; m&#7863;c &#273;&#7883;nh");
+define("def_dichsang","D&#7883;ch sang");
+
+define("def_cacmucdulieuchinh","Danh m&#7909;c th&#244;ng tin");
+define("def_thongtinlienhe","Th&#244;ng tin li&#234;n h&#7879;");
+define("def_quanlythanhvien","Qu&#7843;n l&#253; th&#224;nh vi&#234;n");
+define("def_dieukhoandangky","&#272;i&#7873;u kho&#7843;n &#273;&#259;ng k&#253;");
+define("def_sangiaodichbatdongsan","S&#224;n giao d&#7883;ch b&#7845;t &#273;&#7897;ng s&#7843;n");
+define("def_danhsachthanhvien","Danh s&#225;ch th&#224;nh vi&#234;n");
+define("def_tieude","Ti&#234;u &#273;&#7873;");
+define("def_noidung","N&#7897;i dung");
+define("def_gioithieu","Gi&#7899;i thi&#7879;u");
+define("def_dichvu","D&#7883;ch v&#7909;");
+define("def_sanpham","S&#7843;n ph&#7849;m");
+define("def_tintuc","Tin t&#7913;c & S&#7921; ki&#7879;n");
+define("def_tuyendung","Tuy&#7875;n d&#7909;ng");
+define("def_ykienkhachhang","&#221; ki&#7871;n kh&#225;ch h&#224;ng");
+define("def_khuyenmai","Khuy&#7871;n m&#7841;i");
+define("def_truyencuoi","Truy&#7879;n c&#432;&#7901;i");
+define("def_anhvui","&#7842;nh vui");
+define("def_gametructuyen","Games tr&#7921;c tuy&#7871;n");
+define("def_anhthaydoitrenbanner","Slide Images");
+define("def_filevideo","File video");
+define("def_nguoidang","Ng&#432;&#7901;i &#273;&#259;ng");
+define("def_soluotxem","S&#7889; l&#432;&#7907;t xem");
+define("def_filedoc","File doc");
+define("def_filepdf","File pdf");
+define("def_solantaive","S&#7889; l&#7847;n t&#7843;i v&#7873;");
+define("def_thuoclinhvuc","Thu&#7897;c l&#297;nh v&#7921;c");
+define("def_noibanhanh","N&#417;i ban h&#224;nh");
+define("def_ngaybanhanh","Ng&#224;y ban h&#224;nh");
+define("def_gia","Gi&#225;");
+define("def_dientich","Di&#7879;n t&#237;ch");
+define("def_trieudong","tri&#7879;u &#273;&#7891;ng");
+define("def_metvuong","m<sup>2</sup>");
+define("def_huongnha","H&#432;&#7899;ng nh&#224;");
+define("def_khuvuc","Khu v&#7921;c");
+define("def_loaivanban","Lo&#7841;i v&#259;n b&#7843;n");
+define("def_loaibatdongsan","Lo&#7841;i b&#7845;t &#273;&#7897;ng s&#7843;n");
+define("def_tiennghi","Ti&#7879;n nghi");
+define("def_dacdiemxahoi","&#272;&#7863;c &#273;i&#7875;m x&#227; h&#7897;i");
+define("def_bieutuong","Bi&#7875;u t&#432;&#7907;ng");
+define("def_menungangchinh","Menu ngang ch&#237;nh");
+define("def_menutrai","Menu b&#234;n tr&#225;i");
+define("def_menungangduoi","Menu ngang d&#432;&#7899;i");
+define("def_chuamenucontudong","Ch&#7913;a menu con t&#7921; &#273;&#7897;ng");
+define("def_chuamenuconthemtay","Ch&#7913;a menu con th&#234;m b&#7857;ng tay");
+define("def_lienketweb","Li&#234;n k&#7871;t website");
+define("def_diachiwebsite","&#272;&#7883;a ch&#7881; website");
+define("def_program","Tin t&#7913;c n&#7893;i b&#7853;t tr&#234;n trang ch&#7911;");
+define("def_cacblocktrentrangchu","C&#225;c blocks tr&#234;n trang ch&#7911;");
+define("def_hientrentrangchu","Hi&#7879;n tr&#234;n trang ch&#7911;");
+define("def_luottruycap","L&#432;&#7907;t truy c&#7853;p");
+define("def_chuthichanh","Ch&#250; th&#237;ch &#7843;nh");
+define("def_vitrihienthi","V&#7883; tr&#237; hi&#7875;n th&#7883;");
+define("def_chuthich","Ch&#250; th&#237;ch");
+define("def_fileexcel","File Excel");
+define("def_ngaybatdau","Ng&#224;y b&#7855;t &#273;&#7847;u");
+define("def_ngayketthuc","Ng&#224;y k&#7871;t th&#250;c");
+define("def_shortdes","Gi&#7899;i thi&#7879;u t&#7893;ng qu&#225;t");
+define("def_hotrotructuyen","H&#7895; tr&#7907; tr&#7921;c tuy&#7871;n");
+define("def_diachihommail","Yahoo");
+define("def_quangcao","Logo qu&#7843;ng c&#225;o");
+define("def_anpham","T&#224;i li&#7879;u &#7845;n ph&#7849;m");
+define("def_xemtheovitri","Xem theo v&#7883; tr&#237;");
+define("def_caclogotrenbanner","C&#225;c logo tr&#234;n banner");
+define("def_caclogocotbenphai","C&#225;c logo &#7903; c&#7897;t b&#234;n ph&#7843;i");
+define("def_vitriquangcao","V&#7883; tr&#237; qu&#7843;ng c&#225;o");
+define("def_trenbanner","&#272;&#7889;i t&#225;c");
+define("def_cotbenphai","Qu&#7843;ng c&#225;o");
+define("def_mailreg","&#272;&#259;ng k&#253; nh&#7853;n tin");
+define("def_bannernoihaiben","Float banners at left & right");
+define("def_baochitructuyen","B&#225;o ch&#237; tr&#7921;c tuy&#7871;n");
+
+define("def_tendanhmuc","Ti&#234;u &#273;&#7873;");
+define("def_modules","C&#225;c modules ch&#237;nh");
+define("def_cacblockLeftRight","C&#225;c Boclk b&#234;n tr&#225;i v&#224; ph&#7843;i");
+define("def_cacloaimodules","C&#225;c lo&#7841;i modules");
+define("def_thuocloaimodule","Thu&#7897;c lo&#7841;i d&#7919; li&#7879;u");
+define("def_nguon","Ngu&#7891;n");
+define("def_anh","&#7842;nh");
+define("def_anhminhhoa","&#7842;nh minh h&#7885;a");
+define("def_gioithieuqua","Gi&#7899;i thi&#7879;u qua");
+define("def_noidungchitiet","N&#7897;i dung chi ti&#7871;t");
+define("def_hovaten","H&#7885; & t&#234;n");
+define("def_emaillienhe","Email li&#234;n h&#7879;");
+define("def_duongdan","&#272;&#432;&#7901;ng d&#7851;n");
+define("def_loai","Lo&#7841;i");
+define("def_chuamenucon","Ch&#7913;a menu con");
+define("def_khongchuamenucon","Kh&#244;ng ch&#7913;a menu con");
+define("def_madanhmuc","M&#227; danh m&#7909;c");
+define("def_ngaydang","Ng&#224;y &#273;&#259;ng");
+?>
